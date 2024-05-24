@@ -4,3 +4,5 @@ New York myself, so I used Google Maps Street View to scour areas where water wa
 land was to the east, and both the World Trade Center and the Statue were barely visible to the
 north. After some trial and error, I ended up on Shore Pkwy near Bobby Bello Field in Bay Ridge,
 Brooklyn.
+
+flag: L3AK{Verr4zz4n0_Br1dge_1s_pR3tty_c00l}
