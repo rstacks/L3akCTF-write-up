@@ -1,0 +1,272 @@
+#include "out.h"
+
+
+
+void _DT_INIT(void)
+
+{
+  __gmon_start__();
+  return;
+}
+
+
+
+void FUN_00101020(void)
+
+{
+  (*(code *)(undefined *)0x0)();
+  return;
+}
+
+
+
+void FUN_00101080(void)
+
+{
+  __cxa_finalize();
+  return;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int puts(char *__s)
+
+{
+  int iVar1;
+  
+  iVar1 = puts(__s);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+size_t strlen(char *__s)
+
+{
+  size_t sVar1;
+  
+  sVar1 = strlen(__s);
+  return sVar1;
+}
+
+
+
+void __stack_chk_fail(void)
+
+{
+                    // WARNING: Subroutine does not return
+  __stack_chk_fail();
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int strcmp(char *__s1,char *__s2)
+
+{
+  int iVar1;
+  
+  iVar1 = strcmp(__s1,__s2);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+void * malloc(size_t __size)
+
+{
+  void *pvVar1;
+  
+  pvVar1 = malloc(__size);
+  return pvVar1;
+}
+
+
+
+void processEntry entry(undefined8 param_1,undefined8 param_2)
+
+{
+  undefined auStack_8 [8];
+  
+  __libc_start_main(FUN_001013e5,param_2,&stack0x00000008,0,0,param_1,auStack_8);
+  do {
+                    // WARNING: Do nothing block with infinite loop
+  } while( true );
+}
+
+
+
+// WARNING: Removing unreachable block (ram,0x00101123)
+// WARNING: Removing unreachable block (ram,0x0010112f)
+
+void FUN_00101110(void)
+
+{
+  return;
+}
+
+
+
+// WARNING: Removing unreachable block (ram,0x00101164)
+// WARNING: Removing unreachable block (ram,0x00101170)
+
+void FUN_00101140(void)
+
+{
+  return;
+}
+
+
+
+void _FINI_0(void)
+
+{
+  if (DAT_00104010 != '\0') {
+    return;
+  }
+  FUN_00101080(PTR_LOOP_00104008);
+  FUN_00101110();
+  DAT_00104010 = 1;
+  return;
+}
+
+
+
+void _INIT_0(void)
+
+{
+  FUN_00101140();
+  return;
+}
+
+
+
+void FUN_001011c9(char *param_1,char param_2)
+
+{
+  size_t sVar1;
+  
+  sVar1 = strlen(param_1);
+  param_1[sVar1] = param_2;
+  param_1[sVar1 + 1] = '\0';
+  return;
+}
+
+
+
+// WARNING: Removing unreachable block (ram,0x001012de)
+// WARNING: Heritage AFTER dead removal. Example location: s0xffffffffffffff50 : 0x001012f0
+// WARNING: Restarted to delay deadcode elimination for space: stack
+
+void FUN_00101214(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+                 undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+                 undefined8 param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+                 undefined8 param_13,undefined8 param_14)
+
+{
+  long lVar1;
+  char in_AL;
+  undefined4 *puVar2;
+  ulong uVar3;
+  long in_FS_OFFSET;
+  char local_d9;
+  uint local_d8;
+  undefined4 *local_d0;
+  undefined4 local_b8 [2];
+  undefined8 local_b0;
+  undefined8 local_a8;
+  undefined8 local_a0;
+  undefined8 local_98;
+  undefined8 local_90;
+  undefined4 local_88;
+  undefined4 local_78;
+  undefined4 local_68;
+  undefined4 local_58;
+  undefined4 local_48;
+  undefined4 local_38;
+  undefined4 local_28;
+  undefined4 local_18;
+  
+  if (in_AL != '\0') {
+    local_88 = param_1;
+    local_78 = param_2;
+    local_68 = param_3;
+    local_58 = param_4;
+    local_48 = param_5;
+    local_38 = param_6;
+    local_28 = param_7;
+    local_18 = param_8;
+  }
+  lVar1 = *(long *)(in_FS_OFFSET + 0x28);
+  local_d0 = (undefined4 *)&stack0x00000008;
+  local_d8 = 0x10;
+  local_d9 = (char)local_b0;
+  local_b0 = param_10;
+  local_a8 = param_11;
+  local_a0 = param_12;
+  local_98 = param_13;
+  local_90 = param_14;
+  while (local_d9 != '\0') {
+    FUN_001011c9(param_9,(int)local_d9);
+    if (local_d8 < 0x30) {
+      uVar3 = (ulong)local_d8;
+      local_d8 = local_d8 + 8;
+      puVar2 = (undefined4 *)((long)local_b8 + uVar3);
+    }
+    else {
+      puVar2 = local_d0;
+      local_d0 = local_d0 + 2;
+    }
+    local_d9 = (char)*puVar2;
+  }
+  if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
+    return;
+  }
+                    // WARNING: Subroutine does not return
+  __stack_chk_fail();
+}
+
+
+
+void * FUN_0010137d(void)
+
+{
+  void *pvVar1;
+  
+  pvVar1 = malloc(0x200);
+  FUN_00101214(pvVar1,0x4c,0x33,0x41,0x4b,0x7b,0x62,0x34,0x62,0x79,0x5f,0x73,0x54,0x33,0x50,0x73,
+               0x7d,0);
+  return pvVar1;
+}
+
+
+
+undefined8 FUN_001013e5(undefined8 param_1,long param_2)
+
+{
+  int iVar1;
+  char *__s2;
+  
+  __s2 = (char *)FUN_0010137d();
+  if ((*(long *)(param_2 + 8) != 0) && (iVar1 = strcmp(*(char **)(param_2 + 8),__s2), iVar1 == 0)) {
+    puts("Correct!");
+    return 0;
+  }
+  puts("Wrong!");
+  return 0;
+}
+
+
+
+void _DT_FINI(void)
+
+{
+  return;
+}
