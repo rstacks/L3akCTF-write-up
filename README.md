@@ -41,4 +41,6 @@ curious about my results in the competition, that information is also below.
 
 ## Results
 
+I was the sole member of team Boy Wonder. I scored **250 points** in total and finished **234th out of 497** teams (that solved at least one challenge).
 
+![Results image](results.png)
