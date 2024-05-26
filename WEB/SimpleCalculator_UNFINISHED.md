@@ -1,4 +1,4 @@
-# Simple Calculator
+# Simple calculator
 
 ## Description
 
