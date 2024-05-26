@@ -16,4 +16,4 @@ I can tell that there is an RSA encryption happening here, but
 I'm not sure how to successfully decrypt the flag with the information given. My thought was
 that I need to somehow find the prime factors _p_ and _q_ of _n_ (which is provided), but _n_ is too large
 for this be done without the help of an algorithm. You can see my attempt to find the prime factors
-[here]().
+[here](https://github.com/rstacks/L3akCTF2024-writeup/blob/master/CRYPTO/ReallySimpleAlgorithm/rsa.py).
