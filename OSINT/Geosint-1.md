@@ -4,7 +4,9 @@
 
 Submit the flag for the corresponding challenge (chall1) here.
 
-The geosint platform can be found at: https://osint.buzz/
+The geosint platform was only available during the event, but it was very similar to
+[GeoGuessr](https://www.geoguessr.com/). In order to get the flag, you needed to guess
+the location within a few meters of precision.
 
 ## Solution
 
