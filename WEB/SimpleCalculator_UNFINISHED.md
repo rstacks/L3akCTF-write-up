@@ -4,11 +4,11 @@
 
 Unveil PHP Secrets.
 
-http://45.129.40.107:9668/ 
+[Build](https://github.com/L3AK-TEAM/L3akCTF-2024-public/tree/main/web/simple_calculator/build)
 
 ## Attachments
 
-[simple_calculator_updated.zip](https://ctf.l3ak.team/files/0ddfdb251672ce7e8fce99784fa624fe/simple_calculator_updated.zip?token=eyJ1c2VyX2lkIjoxNDQsInRlYW1faWQiOjYxLCJmaWxlX2lkIjo4OH0.ZlOY8Q.j_H4sGwdzH_mVkS5Es-tN15EtUs)
+[simple_calculator_updated.zip](https://github.com/L3AK-TEAM/L3akCTF-2024-public/tree/main/web/simple_calculator/dist)
 
 ## Solution (Unfinished)
 
