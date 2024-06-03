@@ -6,7 +6,7 @@ We all start with baby steps.
 
 ## Attachments
 
-[hidden](https://ctf.l3ak.team/files/c2c7e2acd4cb8845eedff72dee9b071c/hidden?token=eyJ1c2VyX2lkIjoxNDQsInRlYW1faWQiOjYxLCJmaWxlX2lkIjoxNX0.ZlOWwQ.O4RluYIckyrBl7mvm2WqlPpJklw)
+[hidden](https://github.com/L3AK-TEAM/L3akCTF-2024-public/blob/main/rev/hidden/dist/hidden)
 
 ## Solution
 
