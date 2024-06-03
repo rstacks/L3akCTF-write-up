@@ -4,11 +4,11 @@
 
 Like I said, it's really simple!
 
-<code>nc 193.148.168.30 5668</code> 
+[Build](https://github.com/L3AK-TEAM/L3akCTF-2024-public/tree/main/crypto/Really-Simple-Algorithm/build)
 
 ## Attachments
 
-[server.py](https://ctf.l3ak.team/files/36245c79edc3c493e2640638ae7cb70e/server.py?token=eyJ1c2VyX2lkIjoxNDQsInRlYW1faWQiOjYxLCJmaWxlX2lkIjozNH0.ZlOQHQ.ez5OI-Bzx6tMUX_ksOKcg23Nq7g)
+[server.py](https://github.com/L3AK-TEAM/L3akCTF-2024-public/blob/main/crypto/Really-Simple-Algorithm/dist/server.py)
 
 ## Solution (Unfinished)
 
