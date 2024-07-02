@@ -6,6 +6,8 @@ challenges, I still had a great time and learned some very useful skills.
 Below are my solutions to the challenges I managed to complete. I've also included writeups on my progress and thought process for challenges I attempted, but was not able to complete. If you're
 curious about my results in the competition, that information is also below.
 
+Click [here](https://github.com/rstacks/ctf-writeups) to check out my writeups for other CTFs I've participated in.
+
 ## Solved Challenges
 
 <details>
